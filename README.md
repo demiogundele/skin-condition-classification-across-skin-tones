@@ -9,6 +9,8 @@ The SCIN Dataset is licensed with SCIN Data Use License
 Modified: Filtered to Eczema, Insect Bite, and Folliculitis cases
 
 Research Paper:
+
+
 @article{10.1001/jamanetworkopen.2024.46615,
     author = {Ward, Abbi and Li, Jimmy and Wang, Julie and Lakshminarasimhan, Sriram and Carrick, Ashley and Campana, Bilson and Hartford, Jay and Sreenivasaiah, Pradeep K. and Tiyasirisokchai, Tiya and Virmani, Sunny and Wong, Renee and Matias, Yossi and Corrado, Greg S. and Webster, Dale R. and Smith, Margaret Ann and Siegel, Dawn and Lin, Steven and Ko, Justin and Karthikesalingam, Alan and Semturs, Christopher and Rao, Pooja},
     title = {Creating an Empirical Dermatology Dataset Through Crowdsourcing With Web Search Advertisements},
