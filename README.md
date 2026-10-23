@@ -1,4 +1,4 @@
-# CSC211-course-project
+# CSC11 Course Project (Team: Demi Ogundele and Tilosana Sritharan) 
 Project Frame: Classify skin condition images (Eczema, Insect Bite, Folliculitis) across skin tones, using the SCIN dataset  (algorithmic, deep learning, LLM, and human baseline approaches), exploring the societal issue of racial bias in medical AI.
 
 •	Framed a supervised learning image-classification problem (distinguishing between Eczema, Insect Bite, and Folliculitis) using Google’s SCIN dermatology dataset, which is designed to include a range of skin tones; filtered 516 confidence-weighted cases and built a stratified 336:180 training to test set split (seed 42) to prevent data leakage 
