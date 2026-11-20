@@ -1,0 +1,5 @@
+Approach,n,Accuracy,Recall Eczema,Recall Insect Bite,Recall Folliculitis,Precision Eczema,Precision Insect Bite,Precision Folliculitis
+"Symbolic Approach, full test set(n=180)",180,0.383,0.683,0.25,0.217,0.366,0.417,0.406
+"Symbolic Approach, human subset(n=45)",45,0.311,0.667,0.067,0.2,0.357,0.143,0.3
+"Human Baseline, Demi(n=45)",45,0.444,0.333,0.467,0.533,0.455,0.467,0.421
+"Human Baseline, Tilosana(n=45)",45,0.556,0.6,0.267,0.8,0.5,0.444,0.667
