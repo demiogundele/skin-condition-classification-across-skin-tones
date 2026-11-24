@@ -15,7 +15,7 @@ Project Frame: Classify skin condition images (Eczema, Insect Bite, Folliculitis
 Images download automatically into data/images/ (not committed).
 
 
-Citations:
+## Citations:
 
 Data: SCIN Dataset, Google Research 
 https://github.com/google-research-datasets/scin
