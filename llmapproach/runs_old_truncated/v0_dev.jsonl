@@ -1,0 +1,37 @@
+{"model": "gemma4:e4b", "options": {"temperature": 0, "seed": 0, "num_ctx": 8192, "num_predict": 600}, "prompt": "<task>\nClassify the skin condition present in the image.\n</task>\n\n<labels>\nEczema \nInsect Bite \nFolliculitis \n</labels>\n\nRespond with exactly one label.", "use_image": true, "schema": {"type": "object", "properties": {"answer": {"type": "string", "enum": ["Eczema", "Insect Bite", "Folliculitis"]}}, "required": ["answer"]}, "ids": ["-1031911667791094656", "-1937936622693861461", "-3245549247380873817", "-3753220776898215006", "-4119328652026046199", "-4516438110978983282", "-4535125822193885469", "-4574517859891367319", "-5007684126286758763", "-5110480118605969654", "-5314922026795305282", "-5436299448948641231", "-6108620396561569682", "-7950694854411322847", "-8465535858543016384", "2042799682642232358", "2084168231290015263", "2126547957554095009", "2544728617164619888", "3283837635863557272", "3308130032040975373", "3338941119938065346", "3489401261164777258", "3689862615752795245", "3703025959306724787", "3910036176802997486", "3958546394143844695", "4028764341103818445", "4296604084486352915", "4568350329811966647", "5567081113382937200", "5607945186462654031", "7346307195670230922", "7891416131138101639", "790360683690520778", "7980346475722528081"]}
+{"id": "-1031911667791094656", "label": "Eczema", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 66.85, "prompt_tokens": 457}
+{"id": "-1937936622693861461", "label": "Folliculitis", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 3.55, "prompt_tokens": 457}
+{"id": "-3245549247380873817", "label": "Insect Bite", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 4.84, "prompt_tokens": 457}
+{"id": "-3753220776898215006", "label": "Insect Bite", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 3.56, "prompt_tokens": 457}
+{"id": "-4119328652026046199", "label": "Eczema", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 5.1, "prompt_tokens": 287}
+{"id": "-4516438110978983282", "label": "Insect Bite", "raw": "{\n\"answer\": \"Eczema\"\n}", "pred": "Eczema", "secs": 4.12, "prompt_tokens": 457}
+{"id": "-4535125822193885469", "label": "Folliculitis", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 3.78, "prompt_tokens": 457}
+{"id": "-4574517859891367319", "label": "Eczema", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 3.44, "prompt_tokens": 457}
+{"id": "-5007684126286758763", "label": "Eczema", "raw": "", "pred": null, "secs": 7.41, "prompt_tokens": 457}
+{"id": "-5110480118605969654", "label": "Eczema", "raw": "", "pred": null, "secs": 5.38, "prompt_tokens": 457}
+{"id": "-5314922026795305282", "label": "Eczema", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 4.61, "prompt_tokens": 457}
+{"id": "-5436299448948641231", "label": "Folliculitis", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 5.92, "prompt_tokens": 457}
+{"id": "-6108620396561569682", "label": "Eczema", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 6.32, "prompt_tokens": 174}
+{"id": "-7950694854411322847", "label": "Insect Bite", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 5.41, "prompt_tokens": 457}
+{"id": "-8465535858543016384", "label": "Insect Bite", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 7.01, "prompt_tokens": 457}
+{"id": "2042799682642232358", "label": "Eczema", "raw": "{\n\"answer\": \"Eczema\"\n}", "pred": "Eczema", "secs": 6.56, "prompt_tokens": 457}
+{"id": "2084168231290015263", "label": "Folliculitis", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 7.03, "prompt_tokens": 255}
+{"id": "2126547957554095009", "label": "Insect Bite", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 5.72, "prompt_tokens": 457}
+{"id": "2544728617164619888", "label": "Folliculitis", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 6.01, "prompt_tokens": 457}
+{"id": "3283837635863557272", "label": "Insect Bite", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 6.15, "prompt_tokens": 300}
+{"id": "3308130032040975373", "label": "Insect Bite", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 6.8, "prompt_tokens": 360}
+{"id": "3338941119938065346", "label": "Eczema", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 5.85, "prompt_tokens": 457}
+{"id": "3489401261164777258", "label": "Eczema", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 6.27, "prompt_tokens": 457}
+{"id": "3689862615752795245", "label": "Folliculitis", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 7.04, "prompt_tokens": 457}
+{"id": "3703025959306724787", "label": "Folliculitis", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 6.49, "prompt_tokens": 457}
+{"id": "3910036176802997486", "label": "Folliculitis", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 5.78, "prompt_tokens": 366}
+{"id": "3958546394143844695", "label": "Insect Bite", "raw": "{\n\"answer\": \"Insect", "pred": null, "secs": 8.36, "prompt_tokens": 457}
+{"id": "4028764341103818445", "label": "Insect Bite", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 6.5, "prompt_tokens": 457}
+{"id": "4296604084486352915", "label": "Eczema", "raw": "{\n\"answer\": \"Eczema\"\n}", "pred": "Eczema", "secs": 6.59, "prompt_tokens": 270}
+{"id": "4568350329811966647", "label": "Folliculitis", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 7.35, "prompt_tokens": 374}
+{"id": "5567081113382937200", "label": "Folliculitis", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 6.27, "prompt_tokens": 234}
+{"id": "5607945186462654031", "label": "Insect Bite", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 7.5, "prompt_tokens": 457}
+{"id": "7346307195670230922", "label": "Eczema", "raw": "{\n\"answer\": \"Insect Bite\"\n}", "pred": "Insect Bite", "secs": 6.72, "prompt_tokens": 457}
+{"id": "7891416131138101639", "label": "Folliculitis", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 6.56, "prompt_tokens": 219}
+{"id": "790360683690520778", "label": "Insect Bite", "raw": "", "pred": null, "secs": 7.82, "prompt_tokens": 372}
+{"id": "7980346475722528081", "label": "Folliculitis", "raw": "{\n\"answer\": \"Folliculitis\"\n}", "pred": "Folliculitis", "secs": 8.36, "prompt_tokens": 365}
