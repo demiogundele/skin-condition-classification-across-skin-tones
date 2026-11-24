@@ -4,6 +4,16 @@ Project Frame: Classify skin condition images (Eczema, Insect Bite, Folliculitis
 •	Framed a supervised learning image-classification problem (distinguishing between Eczema, Insect Bite, and Folliculitis) using Google’s SCIN dermatology dataset, which is designed to include a range of skin tones; filtered 516 confidence-weighted cases and built a stratified 336:180 training to test set split (seed 42) to prevent data leakage 
 •	Developed a computer-vision algorithm in Python (OpenCV, scikit-image, NumPy) with YCbCr skin segmentation, Hough circle detection, contour analysis, and LBP/GLCM texture features feeding a rule-based classifier 
 
+## LLM approach
+1. pip install -r requirements.txt
+2. Install Ollama, then: ollama pull gemma4:e4b
+3. cd llmapproach
+4. python llm_harness.py            (dev: all prompts)
+   python llm_harness.py val v0 v2 v4   (validation)
+   python llm_harness.py test v0    (one-time test run, writes ../eval/llm.csv)
+5. python llm_inference.py          (sample case, best prompt v0)
+Images download automatically into data/images/ (not committed).
+
 
 Citations:
 
