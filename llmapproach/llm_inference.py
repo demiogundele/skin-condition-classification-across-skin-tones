@@ -35,7 +35,7 @@ SCHEMA = {
 TEST_CSV = "data/test_set.csv"
 IMAGE_COL = "image_1_path"
 ID_COL = "case_id"
-# the data sample from your test set shown in our progress report (expected output: Eczema)
+# the data sample from our test set shown in our progress report (expected output: Eczema)
 SAMPLE_CASE_ID = "5100815424449862591"
 
 BEST_PROMPT = """<task>
@@ -80,7 +80,7 @@ def predict(image_path):
 
 if __name__ == "__main__":
     case_id = sys.argv[1] if len(sys.argv) > 1 else SAMPLE_CASE_ID
-    test_set = pd.read_csv(TEST_CSV, dtype=str)             # dtype=str keeps the long case IDs intact
+    test_set = pd.read_csv(TEST_CSV, dtype=str)  # dtype=str keeps the long case IDs intact
     row = test_set[test_set[ID_COL] == case_id]
     assert len(row) == 1, f"case id {case_id} not found in {TEST_CSV}"
     prediction = predict(row.iloc[0][IMAGE_COL])
