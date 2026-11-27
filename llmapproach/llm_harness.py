@@ -8,8 +8,8 @@ input (no case IDs or labels or file names go in the prompt)
 Output: JSON {"answer": <label>} from the schema (the model only able to choose one of the labels)
 
 python llm_harness.py           develop: score every prompt in PROMPTS on a fixed training subset
-python llm_harness.py val v0 v?  compare your best few prompts on the validation set
-python llm_harness.py test v?  run the prompt "v?" once on the test set, and write eval/llm.csv
+python llm_harness.py val v0 v2 v4  compare your best few prompts on the validation set
+python llm_harness.py test v0  run the prompt "v?" once on the test set, and write eval/llm.csv
 """
 import json
 import random
